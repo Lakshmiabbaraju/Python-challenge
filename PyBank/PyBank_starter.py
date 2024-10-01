@@ -53,6 +53,7 @@ if monthly_changes:
     decrease_date = date[monthly_changes.index(greatest_decrease_profits) + 1]
 
 # Print results
+print(f"header: {csv_header}")
 print("----------------------------------------------------------")
 print("Financial Analysis")
 print("----------------------------------------------------------")
